@@ -12,29 +12,7 @@ const UPDATED_GRADES: string[][] = [
   ["Spring 2026","ACC501","Business Finance","2.30","C","63.00","72.00"],
   ["Spring 2026","ECO403","Macroeconomics","2.70","B-","69.00","74.00"],
   ["Spring 2026","ISL202","Islamic Studies","3.00","B","75.00","82.00"],
-  ["Fall 2025","IT430","E-Commerce","2.47","C","65.98","61.66"],
-  ["Fall 2025","CS507","Information Systems","1.20","D","52.20","10.37"],
-  ["Fall 2025","ACC501","Business Finance","0.00","F","28.96","13.87"],
-  ["Fall 2025","ECO402","Microeconomics","1.50","D","55.50","64.99"],
-  ["Fall 2025","MGT402","Cost & Management Accounting","0.00","F","39.26","51.69"],
-  ["Fall 2025","MGT503","Principles of Management","1.40","D","54.40","19.36"],
-  ["Fall 2025","SOC101","Introduction to Sociology","0.00","F","32.28","7.77"],
-  ["Spring 2025","PAK301","Pakistan Studies",EXEMPTED],
-  ["Spring 2025","ISL202","Islamic Studies","1.90","D","59.90","15.63"],
-  ["Spring 2025","VU001","Introduction to e-Learning","","F","0.00","0.00"],
-  ["Spring 2025","ACC501","Business Finance","0.00","F","32.09","11.79"],
-  ["Spring 2025","CS304","Object Oriented Programming",EXEMPTED],
-  ["Spring 2025","CS403","Database Management Systems",EXEMPTED],
-  ["Spring 2025","CS101","Introduction to Computing",EXEMPTED],
-  ["Spring 2025","CS201","Introduction to Programming",EXEMPTED],
-  ["Spring 2025","CS302","Digital Logic Design","0.00","F","27.74","6.12"],
-  ["Spring 2025","CS601","Data Communication",EXEMPTED],
-  ["Spring 2025","CS610","Computer Networks",EXEMPTED],
-  ["Spring 2025","ENG101","English Comprehension",EXEMPTED],
-  ["Spring 2025","ENG201","Business and Technical English Writing",EXEMPTED],
-  ["Spring 2025","MGT101","Financial Accounting",EXEMPTED],
-  ["Spring 2025","MGT211","Introduction To Business",EXEMPTED],
-  ["Spring 2025","MGT301","Principles of Marketing","0.00","F","32.13","2.70"]
+  
 ];
 
 export default function GradeBookView() {
