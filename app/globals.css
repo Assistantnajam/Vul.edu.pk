@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html, body { height: 100%; margin: 0; background: #f4f5f9; font-family: var(--font-roboto), "Segoe UI", Arial, sans-serif; }
+.banner { background: linear-gradient(120deg, #8a5ae6 0%, #7b4fdb 55%, #8e66e8 100%); }
+.sb { background: #262c3d; }
+.act { background: #6d7077; }
+.pop { font-family: var(--font-poppins), sans-serif; }
+
+/* Hover effects */
+.nav-item { transition: background-color .15s ease; }
+.nav-item:hover { background: #6d7077; }
+.course-card { transition: box-shadow .2s ease, transform .2s ease; }
+.course-card:hover { box-shadow: 0 10px 16px rgba(0,0,0,.35) !important; transform: translateY(-3px); }
+.action-item { transition: color .15s ease, transform .15s ease; }
+.action-item:hover { color: #6a5acd !important; transform: translateY(-2px); }
+.grade-row { transition: background-color .12s ease; }
+.grade-row:hover { background: #e6e2fa !important; }
+.tab-item { transition: background-color .15s ease; }
+.tab-item:hover { background: #ece9fb; }
+
+/* Page-switch animation */
+@keyframes view-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+.view-in { animation: view-in .35s ease both; }
+@media (prefers-reduced-motion: reduce) {
+  .view-in { animation: none; }
+  .course-card, .action-item { transition: none; }
+}
